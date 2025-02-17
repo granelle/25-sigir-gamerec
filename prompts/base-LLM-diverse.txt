@@ -1,0 +1,4 @@
+Given the following request, provide recommendations. Enumerate 20 <platform> game names (1., 2., ...) in the order of relevance. Don't say anything else.
+The games should be diverse and not too well-known (should be new to the user).
+
+<input>

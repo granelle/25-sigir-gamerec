@@ -1,0 +1,33 @@
+Task: Generate a code in Python based on given tools.
+
+The resulting variable, `output`, should contain relevant information needed to recommend <platform> games based on a user request. 
+The output should be a Dict[str, str] where a key denote what the information is about and the value is the information.
+
+For example, a simple output may look like this:
+
+output = {
+    "Lookup 'Murder Mystery 2' (liked by user)": "Genre: Survival. In this game, players are divided into...",
+    "Search results for 'fighting'": "1. Right 2 Fight --- Genre: Fighting. The game is...\n2.The Strongest Battlegrounds...."
+}
+
+You can use the following functions in your code (already defined, so don't define them):
+
+<tools>
+
+
+Here is the user request:
+
+<input>
+
+
+Fill in the following template:
+
+```python
+formatted_request = <json_input>
+
+output = {}  # dictionary of relevant information
+
+# your code here
+```
+
+Make sure the syntax is correct. Don't say anything else.

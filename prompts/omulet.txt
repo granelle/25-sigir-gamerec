@@ -1,0 +1,17 @@
+A person made the following request for <platform> game recommendations:
+
+<input>
+
+Your task is to generate a list of relevant recommendations.
+
+First, carefully read the following information retreived by an external API.
+
+<tool_execution_output>
+
+Second, using the above information along with your own knowledge and reasoning, provide the best recommendations that fulfill the request.
+
+Rules:
+- Enumerate 20 <platform> game names (1., 2., ..., 20.) in the order of relevance. 
+- Write just the titles, not the descriptions. 
+- Titles should be removed of emojies and tags (e.g., "[❗UPDATE] 🔥Tower Defense Simulator🔥" should be "Tower Defense Simulator")
+- Don't say anything else.

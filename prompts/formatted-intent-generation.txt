@@ -1,0 +1,37 @@
+Given a user's recommendation request, format the user's preference into a JSON format. 
+Fill in the following template of dict[str, dict[str, list]] with the relevant information accurately extracted from the user's request:
+
+```json
+{
+    "like": {
+        "genres": [], 
+        "game_names": [], 
+        "properties": [], 
+        "devices": []
+    },
+
+    "dislike": {
+        "genres": [], 
+        "game_names": [], 
+        "properties": [], 
+        "devices": []
+    },
+        
+    "user_demographics": {
+        "ages": [], 
+        "genders": []
+    }
+}
+```
+
+Rules:
+- Elements of "devices" must be one of 'DESKTOP', 'PHONE', 'TABLET', 'CONSOLE', 'VR'.
+- Elements of "ages" must be one of '0-8', '9-12', '13-17', '18-24', '25-34', '35plus'.
+- Don't say anything else. 
+
+<5 demonstrations>
+
+Input: 
+<input>
+
+Output:
